@@ -12,14 +12,7 @@
 
 ### [2.6.4] 2023-09-29
 
-  * Security: Fixed possible remote code execution vulnerability if composer.phar is publicly accessible, executable as PHP, and register_argc_argv is enabled in php.ini (GHSA-jm6m-4632-36hf / CVE-2023-43655)
-  * Fixed json output of abandoned packages in audit command (#11647)
-  * Performance improvement in pool optimization step (#11638)
-  * Performance improvement in `show -a <packagename>` (#11659)
-
-### [2.6.3] 2023-09-15
-
-  * Added audit.abandoned config setting. Can be set to `ignore`, `report` (current default) or `fail` (future default in 2.7) to make the audit command report abandoned packages as a security problem (#11639)
+  * Security: Fixed possible remote code execution vulnerability if composer.phar is publicly accessible, executable as PHP, and register_argc_argv is enabled in efault) or `fail` (future default in 2.7) to make the audit command report abandoned packages as a security problem (#11639)
   * Added a warning when duplicates `files` autoload rules are detected (#11109)
   * Fixed unhandled promise rejection regression (#11620)
   * Fixed loading of root aliases on path repo packages when doing partial updates (#11632)
