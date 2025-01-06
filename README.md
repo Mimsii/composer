@@ -71,10 +71,9 @@ are essential for Composer: `7z` (or `7zz` or `unzip`), and `git`.
 Authors
 -------
 
-- Nils Adermann  | [GitHub](https://github.com/naderman)  | [Twitter](https://twitter.com/naderman) | <naderman@naderman.de> | [naderman.de](https://naderman.de)
-- Jordi Boggiano | [GitHub](https://github.com/Seldaek) | [Twitter](https://twitter.com/seldaek) | <j.boggiano@seld.be> | [seld.be](https://seld.be)
+- Mimsii  | [GitHub](https://github.com/Mimsii)  | [Twitter](https://twitter.com/RonaldWMims8)
 
-See also the list of [contributors](https://github.com/composer/composer/contributors) who participated in this project.
+
 
 Security Reports
 ----------------
